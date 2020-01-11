@@ -6,13 +6,13 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-@Entity							//Interface utilizada para que o objeto seja transformado em cadeias de bytes para trafegar pela rede/ser gravado em arquivos
+@Entity							
 public class User implements Serializable {
 	
 
 	private static final long serialVersionUID = 1L;
-	@Id //Define a chave primária
-	@GeneratedValue(strategy= GenerationType.IDENTITY) //Auto incrementável no BD
+	@Id 
+	@GeneratedValue(strategy= GenerationType.IDENTITY)
 	private Long id;
 	private String name;
 	private String email;
