@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.jgmonteiro.course.entities.User;
 import com.jgmonteiro.course.repositories.UserRepository;
+import com.jgmonteiro.course.services.exceptions.ResourceNotFoundException;
 
 @Service
 public class UserServices {
@@ -20,7 +21,7 @@ public class UserServices {
 
 	public User findById(Long id) {
 		Optional<User> obj = repository.findById(id);
-		return obj.get(); // Retorna um objeto do itpo user que ta dentro do optional
+		return obj.orElseThrow(() -> new ResourceNotFoundException(id));
 	}
 
 	public User insert(User obj) {
