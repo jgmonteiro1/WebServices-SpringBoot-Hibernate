@@ -10,14 +10,14 @@ O deploy da aplicação foi feito no Heroku e pode ser acessado no link abaixo:
 https://projeto-webservices-sb.herokuapp.com/
 
 ## Alguns dos endpoints que podem ser acessados:
-https://projeto-webservices-sb.herokuapp.com/users
-https://projeto-webservices-sb.herokuapp.com/orders
-https://projeto-webservices-sb.herokuapp.com/products
+1. https://projeto-webservices-sb.herokuapp.com/users
+2. https://projeto-webservices-sb.herokuapp.com/orders
+3. https://projeto-webservices-sb.herokuapp.com/products
 
 ### Lista de coisas que eu PRETENDO fazer para deixar esse projeto mais maneiro:
-1. Popular o banco de dados
-2. Criar uma interface gráfica
-3. Armazenar a senha em hash no banco de dados
-4. Controlar os acessos com token.
+- [] Popular o banco de dados
+- [] Criar uma interface gráfica
+- [] Armazenar a senha em hash no banco de dados
+- [] Controlar os acessos com token.
 
 *Não necessariamente nessa ordem.
