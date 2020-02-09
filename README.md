@@ -15,7 +15,7 @@ https://projeto-webservices-sb.herokuapp.com/orders
 https://projeto-webservices-sb.herokuapp.com/products
 
 Lista de coisas que eu PRETENDO fazer para deixar esse projeto mais maneiro:
->Popular o banco de dados
->Criar uma interface gráfica
->Armazenar a senha em hash no banco de dados
->Controlar os acessos com token.
+.Popular o banco de dados
+.Criar uma interface gráfica
+.Armazenar a senha em hash no banco de dados
+.Controlar os acessos com token.
