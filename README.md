@@ -35,15 +35,15 @@ Para inserir um usuário você pode utilizar o Postman||Insomnia e enviar em um 
 	"phone": "888888"
 }
 
-Abaixo é mostrado como fica o sistema na prática:
+##### Abaixo é mostrado como fica o sistema na prática:
 ![DomainInstance](https://user-images.githubusercontent.com/49801757/74162431-877bc280-4bff-11ea-96ef-d0ea96e15848.png)
 
 
 
-### IMPORTANTE:
+## IMPORTANTE:
 Vale ressaltar que a ideia do projeto era apenas a implementação de um webservices, então aspectos como interface gráfica e segurança não foram levados em conta/implementados.(Espero poder incrementar o projeto futuramente).
 
-### Lista de coisas que eu PRETENDO fazer para deixar esse projeto mais maneiro:
+## Lista de coisas que eu PRETENDO fazer para deixar esse projeto mais maneiro:
 - [X] Popular o banco de dados
 - [] Criar uma interface gráfica
 - [] Armazenar a senha em hash no banco de dados
